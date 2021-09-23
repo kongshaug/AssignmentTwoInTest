@@ -109,6 +109,6 @@ En vigtig faktor er hver nemt det er at anvende framworket, det lader til stemni
 Af de tre er det Mockito er den mest kendte af de tre og har derfor størst support på nettet.
 * Which one would you prefer, if any, and why?
 
-Jeg har ikke nok erfaring til at komme med et kvalificeret bud på hvilken der er bedst men det lader til Mockito ville være et godt bud. Når man er ny udvikler er det vigtig med meget support på nettet til at støtte sig op af. 
+Jeg har ikke nok erfaring til at komme med et kvalificeret bud på hvilken der er bedst, men det lader til Mockito ville være et godt bud. Når man er ny udvikler er det vigtig med meget support på nettet til at støtte sig op af. 
 
 

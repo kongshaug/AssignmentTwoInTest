@@ -69,24 +69,32 @@ Hvis systemet havde implementeret tilstrækkeligt unit test af mapping funktiona
 Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.
 
 * @Tag
+
 Giver tests tags, f.eks. gruppere test under tagget ”unit” for alle unit tests. Det er en anden måde, end @Nested, at gruppere test sammen der er realteret.
 
 * @Disabled
+
 Dette tag gør at testen ikke bliver kørt
 Kan også tage imod en beskrivelse om hvorfor den er disabled
 * @RepeatedTest
+
 Denne test skal køres flere gange og annotationen tager imod et tal for hvor mange gange den skal køre
 * @BeforeEach, @AfterEach
+
 Before each -  kører før hver test. Kan bruges til at gøre objekter klar, der skal bruges på tværs af alle test og metoden kan sikre at objekterne ikke bliver påvirket af foregående tests.
 After each -  kører efter hver test. Kan bruges til at ”rydde op” efter en test
 * @BeforeAll, @AfterAll
+
 Before all - kører en gang før alle test eksekveres. F.eks. kan det bruges til at initialisere forskellige objekter eller en database kan blive populated med data.
 After all - kører en gang efter at alle test er eksekveret. F.eks. at nulstille en database.
 * @DisplayName
+
 Når testen køre bliver en beskrivelse af testen vist
 * @Nested
+
 Gruppere test sammen, der tester samme funktionalitet, i en samlet test-klasse.
 * assumeFalse, assumeTrue
+
 Bruges indeni test.
 De bruges til at teste om en tilstand er sand eller falsk, hvis den er hvad du forventer fortsætter testen. Hvis den ikke er skipper den resten af testen. 
 Mocking frameworks

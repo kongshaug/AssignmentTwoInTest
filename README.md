@@ -33,9 +33,10 @@ Integrationen af disse 3 elementer skal være af høj kvalitet så de ikke går 
 Find a story where a software system defect had a bad outcome. Describe what happened. Can you identify a test that would have prevented it?
 
 “””
-Imagine waking up one day, checking your mailbox an receiving a letter from your hospital saying you died. Well, that is precisely what happened to 8500 people who received treatment between Oct 25 and Dec 11 at St. Mary’s Mercy Hospital. So what happened? It turns out the hospital had recently upgraded its patient-management software system. However, a mapping error in the software resulted in the system assigning a code of 20 (which means “expired”) instead of 01 which meant the patient had been discharged. But that is not all. The erroneous data was not only sent to the patients but also to insurance companies and the local Social Security Office. It is not clear how
+> Imagine waking up one day, checking your mailbox an receiving a letter from your hospital saying you died. Well, that is precisely what happened to 8500 people who received   > treatment between Oct 25 and Dec 11 at St. Mary’s Mercy Hospital. So what happened? It turns out the hospital had recently upgraded its patient-management software system.    > However, a mapping error in the software resulted in the system assigning a code of 20 (which means “expired”) instead of 01 which meant the patient had been discharged. But  > that is not all. The erroneous data was not only sent to the patients but also to insurance companies and the local Social Security Office. It is not clear how
 ”””
-(kilde)[https://blog.bitsrc.io/software-is-not-perfect-cases-of-software-failure-and-their-consequences-f5fec39c038f]
+[kilde til historien](https://blog.bitsrc.io/software-is-not-perfect-cases-of-software-failure-and-their-consequences-f5fec39c038f)
+
 
 Det er en bemærkelsesværdigt at artiklen både skriver både at problemet var et ”mapping error” og slutter med ”It is not clear how” men nok om det.
 Hvis systemet havde implementeret tilstrækkeligt unit test af mapping funktionaliteten havde de med en simpel test fanget mapping fejlen.

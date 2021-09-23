@@ -101,12 +101,14 @@ Mocking frameworks
 
 ## mockito-vs-easymock-vs-jmockit
 * What are their similarities and differences ?
+
 Alle tre er nemme at konfigurer og anvender annotationer til at gøre det nemmere at definere mocken
 Men af de 3 har Mockito flest annotationer.
 Alle 3 følger same pattern: “record-reply-verify” men JMockit tvinger en til at følge dette pattern mere end de to andre og kan deraf føre til bedre strukturerede tests.
 En vigtig faktor er hver nemt det er at anvende framworket, det lader til stemningen på nettet hælder til JMockit er nemmere at arbejde med end de to andre.
 Af de tre er det Mockito er den mest kendte af de tre og har derfor størst support på nettet.
 * Which one would you prefer, if any, and why?
+
 Jeg har ikke nok erfaring til at komme med et kvalificeret bud på hvilken der er bedst men det lader til Mockito ville være et godt bud. Når man er ny udvikler er det vigtig med meget support på nettet til at støtte sig op af. 
 
 

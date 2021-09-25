@@ -1,5 +1,6 @@
 # AssignmentTwoInTest
-
+ 
+ Alle skriftelig opgaver er indsat i denne ReadMe fil. I projektet finder du løsningen på både util opgaven og bowling opgaven
 
 ## Computer mouse
 
